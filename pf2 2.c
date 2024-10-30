@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-
+#define MAX-CHAR 256
 
 // Function to calculate and print character frequency for each slogan
 void analyzeCharacterFrequency(char *slogans[], int n) {
