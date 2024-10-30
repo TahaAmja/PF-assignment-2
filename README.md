@@ -19,3 +19,6 @@ compressWord: This function compresses a single word by removing consecutive dup
 sortString: Sorts characters within a string, which helps us recognize anagrams by producing the same sorted result for each set of anagrams.
 areAnagrams: Checks if two strings are anagrams by sorting and comparing them.
 groupScrambledTransactions: Groups transactions by iterating through the list and finding all anagrams for each ungrouped transaction. It marks transactions as grouped to avoid reprocessing.
+# Q5:![Screenshot (5)](https://github.com/user-attachments/assets/c79a5efc-6ea7-4706-8296-542713fb3919)
+# Input Handling: The input_handling function simply prints the input values for demonstration purposes.
+Horizontal Histogram: The horizontal_histogram function iterates through the values and prints a corresponding number of asterisks for each value.Vertical Histogram: The vertical_histogram function first determines the maximum value and then prints asterisks in a vertical format. It includes a base that shows the values.
