@@ -25,4 +25,5 @@ Horizontal Histogram: The horizontal_histogram function iterates through the val
 # Q6:![Screenshot (6)](https://github.com/user-attachments/assets/2266b292-cf78-4a2b-ae87-d752720d9cdc)
 #Explanation:
 Game Logic: The game has a periodic structure, where every group of 5 matchsticks is a losing position for the player who has to play. If the total number of matchsticks is a multiple of 5, then the player cannot guarantee a win if both play optimally.Functionality:The matchsticks_to_pick function checks the number of matchsticks 𝑁 If N is a multiple of 5, it returns -1, indicating that A cannot guarantee a win.If not, it calculates N%5, which gives the optimal number of matchsticks A should pick to force the opponent into a losing position.User Input: The main function prompts the user to enter the number of matchsticks, then calls the matchsticks_to_pick function and outputs the result.
-# Q7:
+# Q7:![Screenshot (7)](https://github.com/user-attachments/assets/796f64cd-4eb2-4b4e-a897-2ac309ce5972)
+# Q8:
