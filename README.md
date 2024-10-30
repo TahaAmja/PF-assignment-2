@@ -49,4 +49,5 @@ The program checks if the move is valid (within bounds and not into an obstacle)
 If the player moves onto an item, it increments the item count and removes the item from the grid.
 The player's position is updated, and the loop continues until the player decides to quit.
 Input Handling: The program gracefully handles invalid input and provides feedback to the player
-# 
+# ![Screenshot (9)](https://github.com/user-attachments/assets/2badb08b-761f-4ddf-a16b-5d8f76476d09)
+
