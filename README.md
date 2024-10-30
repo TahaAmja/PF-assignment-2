@@ -11,3 +11,6 @@ analyzeCharacterFrequency takes an array of slogans and counts the frequency of 
 We use an array freq to store character counts, where each index corresponds to an ASCII character.
 The first loop iterates over each slogan, and the second loop counts characters for that slogan.
 # ![Screenshot (2)](https://github.com/user-attachments/assets/f4a50602-dd5b-4af8-8421-0e1d95522b8a)
+# Q3:Explanation
+compressWord: This function compresses a single word by removing consecutive duplicate characters. It builds the compressed version of the word in compressedWord and returns the number of removed characters.compressWords: This function processes an array of words by calling compressWord for each word, storing each compressed word in compressedWords and keeping track of the total number of removed characters.Sets up an array of words, calls compressWords, and prints the compressed words and the total number of characters removed.
+# ![Screenshot (3)](https://github.com/user-attachments/assets/10bdac8b-3ea3-4170-96f7-fc92e0757690)
