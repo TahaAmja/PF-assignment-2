@@ -50,4 +50,12 @@ If the player moves onto an item, it increments the item count and removes the i
 The player's position is updated, and the loop continues until the player decides to quit.
 Input Handling: The program gracefully handles invalid input and provides feedback to the player
 # ![Screenshot (9)](https://github.com/user-attachments/assets/2badb08b-761f-4ddf-a16b-5d8f76476d09)
-
+# Q10:![Screenshot (10)](https://github.com/user-attachments/assets/08604246-1382-4511-89c4-58b8f423538a)
+# Explanation of the Code:
+Header Comments: Describes the purpose of the program, the pattern it generates, the dimensions, and the position of the center.
+Function printStarPattern:
+Takes an integer N and prints the star pattern.
+Uses nested loops to iterate through rows and columns, checking conditions to determine when to print stars based on the desired pattern.
+Main Function:
+Prompts the user to enter an odd integer for N.
+Validates if N is odd and calls the star pattern function.
