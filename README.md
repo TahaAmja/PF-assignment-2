@@ -14,3 +14,8 @@ The first loop iterates over each slogan, and the second loop counts characters 
 # Q3:Explanation
 compressWord: This function compresses a single word by removing consecutive duplicate characters. It builds the compressed version of the word in compressedWord and returns the number of removed characters.compressWords: This function processes an array of words by calling compressWord for each word, storing each compressed word in compressedWords and keeping track of the total number of removed characters.Sets up an array of words, calls compressWords, and prints the compressed words and the total number of characters removed.
 # ![Screenshot (3)](https://github.com/user-attachments/assets/10bdac8b-3ea3-4170-96f7-fc92e0757690)
+# Q4:![Screenshot (4)](https://github.com/user-attachments/assets/cbc725df-164e-4823-9ddd-20d28b590167)
+#Explanation
+sortString: Sorts characters within a string, which helps us recognize anagrams by producing the same sorted result for each set of anagrams.
+areAnagrams: Checks if two strings are anagrams by sorting and comparing them.
+groupScrambledTransactions: Groups transactions by iterating through the list and finding all anagrams for each ungrouped transaction. It marks transactions as grouped to avoid reprocessing.
