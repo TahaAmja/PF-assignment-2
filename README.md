@@ -26,4 +26,27 @@ Horizontal Histogram: The horizontal_histogram function iterates through the val
 #Explanation:
 Game Logic: The game has a periodic structure, where every group of 5 matchsticks is a losing position for the player who has to play. If the total number of matchsticks is a multiple of 5, then the player cannot guarantee a win if both play optimally.Functionality:The matchsticks_to_pick function checks the number of matchsticks 𝑁 If N is a multiple of 5, it returns -1, indicating that A cannot guarantee a win.If not, it calculates N%5, which gives the optimal number of matchsticks A should pick to force the opponent into a losing position.User Input: The main function prompts the user to enter the number of matchsticks, then calls the matchsticks_to_pick function and outputs the result.
 # Q7:![Screenshot (7)](https://github.com/user-attachments/assets/796f64cd-4eb2-4b4e-a897-2ac309ce5972)
-# Q8:
+# Q8:![Screenshot (8)](https://github.com/user-attachments/assets/8f675c79-1aa5-4a77-9eae-97f7ef19d7cd)
+# Functions:
+
+BinaryToDecimal: Converts a binary number to decimal.
+DecimalToBinary: Converts a decimal number to binary.
+DecimalToHexadecimal: Converts a decimal number to hexadecimal and prints it.
+HexadecimalToDecimal: Converts a hexadecimal string to decimal and prints it.
+BinaryToHexadecimal: Converts a binary number to hexadecimal.
+HexadecimalToBinary: Converts a hexadecimal string to binary and prints it.
+Main Function: Displays a menu for the user to select the desired conversion. It accepts input based on the user's choice and calls the corresponding conversion function. The loop continues until the user chooses to exit.
+# Q9:Grid Initialization: The grid is defined as a 5x5 array with spaces, items ('I'), obstacles ('X'), and the player's initial position ('P').
+
+Display Function: The displayGrid function prints the current state of the grid to the console.
+
+Game Loop:
+
+The program enters a loop where it continuously displays the grid and prompts the player for a move.
+The player can input a move (W, A, S, D for movement, Q to quit).
+The new position is calculated based on the player's input.
+The program checks if the move is valid (within bounds and not into an obstacle).
+If the player moves onto an item, it increments the item count and removes the item from the grid.
+The player's position is updated, and the loop continues until the player decides to quit.
+Input Handling: The program gracefully handles invalid input and provides feedback to the player
+# 
